@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>javascript</title>
+    <script>
+        function validateform() {
+            const name = document.getElementById("name").value;
+            const namepattern = /^[A-Za-z\s]+$/;
+            if (!namepattern.test(name)) {
+                // alert("please enter a valid name");
+                document.getElementById("name").style.borderColor = "red";
+                return false;
+            }
+            const mobile = document.getElementById("mobile").value;
+            const mobilepattern = /^[678]\d{9}$/;
+            if (!mobilepattern.test(mobile)) {
+                alert("please enter valid mobile number");
+                document.getElementById("mobile").style.borderColor = "red";
+                return false;
+
+            }
+            const email = document.getElementById("email").value;
+            const emailpattern = /^[A-Za-z0-9._%+-]+@gmail\.com$/;
+            if (!emailpattern.test(email)) {
+                alert("please enter valid email");
+                document.getElementById("Email").style.borderC olor = "red";
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <form onsubmit="return validateform()">
+        Enter Your Name:
+        <input type="text" id="name" />
+        <br /> <br /> Enter Your Mobile:
+        <input type="number" id="mobile">
+        <br/><br/> Enter Your Email:
+        <input type="email" id="Email">
+        <br/><br/>
+        <button type=" submit ">Submit</button>
+        </from>
+</body>
+
+</html>
