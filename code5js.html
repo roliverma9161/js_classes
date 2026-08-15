@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <script>
+        var names = ["digicoders", "lucknow", roli];
+        var i = 0;
+
+        function show() {
+            p1.innerHTML += names[i];
+            i++;
+
+            if (i === names.length) {
+
+                i = 0;
+            }
+            setTimeout(show, 1000);
+        }
+    </script>
+</head>
+
+<body onload="show()">
+    <p id="p1"></p>
+</body>
+
+</html>
