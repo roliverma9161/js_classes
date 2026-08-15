@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+</head>
+
+<body onload="getcaptcha()">
+
+    <div>
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+
+        <span>=</span>
+
+        <input id="t1" />
+    </div>
+    <br/>
+    <button onclick="verify()">Submit</button>
+    <button onclick="getcaptcha()">Refresh</button>
+
+    <script>
+        function verify() {
+            var a = span1.innerHTML;
+            var b = span2.innerHTML;
+            var c = span3.innerHTML;
+
+            var d = a + b + c;
+            var e = eval(d);
+
+            var f = t1.value;
+
+            if (e == f) {
+                alert("Success");
+            } else {
+                alert("Failed");
+            }
+        }
+
+        function getrandom(min, max) {
+            var a = Math.random();
+            var b = a * (max - min) + min;
+            b = parseInt(b);
+            return b;
+        }
+
+        function getcaptcha() {
+            var op = "+-*";
+            span1.innerHTML = getrandom(1, 9);
+            span2.innerHTML = op.charAt(getrandom(0, op.length));
+            span3.innerHTML = getrandom(1, 9);
+        }
+    </script>
+
+</body>
+
+</html>
