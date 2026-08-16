@@ -1,0 +1,23 @@
+                                                                                     javascript
+                   HTML:
+                   CSS:
+                   <HEAD>
+                   //META TAG
+                   </HEAD>
+                   BOOTSTRAP
+
+                   JAVASCRIPT
+                   BUTTON
+                   CLIENT SIDE:
+
+                   CONSOLE
+                   ALERT
+                   INNERHTML
+                   INNERTEXT
+
+
+                   STYLE
+        
+                   SRC
+              
+                   <H1 ID="P1">HYY</H1>  

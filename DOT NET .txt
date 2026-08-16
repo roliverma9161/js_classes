@@ -1,0 +1,158 @@
+DOT NET :
+
+
+framework
+
+
+     collection of libraries
+    
+     destop software development
+     website development
+     game development
+     mobile app development
+     ai/ml
+     100+programming support
+
+
+
+.net
+
+network enabled technology
+
+
+ASP.net
+ASP-active server pages-classic ASP
+ASP.net
+
+
+c#.net
+F#.net
+----------------
+2000-microsoft
+
+SDK-> software development kit
+Windows->by default installed
+
+
+visual studio   IDE
+Integrated development env
+=======================================
+
+C& javascript
+
+C#
+    basic programming
+    oops
+    
+OOPS
+-----------
+Object Oriented Programming
+Object - properties /functionality
+   ->variables
+   ->method
+
+
+X -> object -> properties,methods
+class
+
+
+
+    class contains definition of properties & methods
+
+object is a instance/varible of its class
+
+int a;
+float a;
+
+
+=============================================
+    
+
+
+class
+object
+
+
+
+
+
+abstraction ->data hiding
+mechanism
+
+
+Encapusulation 
+binding multiple things in a single unit
+
+
+polymorphism
+one things in many forms
+  method overloading
+  method overriding
+  
+
+
+inheritance
+    reuse
+    
+
+    a ->b=single inharitence
+    a->b ->c=multilevel inheritance
+
+    a->b
+    a->c
+        hierarchical inheritance
+
+a->c - multiple inheritance [directly not supported]
+b->c - it is supported using interface
+a->b->c
+   b->       ->hybrid[mix]
+
+
+
+constructer
+    class/object initialize
+    special method 
+    it has name same as class name 
+    it can not return value 
+    it can accept parameters
+    it will be called automatically
+    it must be public
+
+access specifiers
+     private
+     protected
+     public
+access modifiers
+    static
+    abstract
+    this
+    super
+    final
+
+MVC-
+Model view controller
+
+view ->design ui
+controller-coding-c#
+model ->database interaction
+
+----------------------------------
+cotroller->c#
+model->database
+views->html,css
+wwwroot->image
+-------------------------
+task
+home
+about
+gallery
+contact
+login
+
+
+
+
+
+
+
+
